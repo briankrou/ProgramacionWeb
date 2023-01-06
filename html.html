@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML</title>
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <header>
+        <h1>HTML <em>HyperText Markup Language </em></h1>
+        <p><strong>HTML (<small>HyperText Markup Language</small> )</strong> Es un lenguaje que esta compuesto por un grupo de etiquetas ,
+        que consinte en una etiqueta de <samp style="color: blue;">inicio</samp> y una etiqueta <span style="color: green;"> final</span> que es basicamente la misma de inicio  pero con una barra  "/" , esta se emplea ya sea por que que lo requiere o por buena practica  en algunas 
+        ocaciones tambien consiten en una sola etiqueta o tambien llamada <em>elementos</em> (por ejemplo &#60;br>), estas etiquetas se le puede adignar <span style="color: red;">atributos</span> acompañados de <span style="color: blueviolet;">su valor</span>.</p>
+
+        <p>Un ejemplo de estas etiquetas es la etiqueta <strong>&#60;html> </strong>empleada para que todo lo que este dentro de estas eqtiquetas sea interpretado como código HTML</p>
+
+        <h2><span style="color: blue;" >&#60;html <span style="color:red ;">lang=<span style="color: blueviolet;">"es"</span></span> ></span> ... <span style="color: green;">&#60;/html></span></h2>
+
+
+        <h2> Estructura de una pagina web</h2>
+
+
+        <div class="eshtml">
+            <div class="esheader">
+                <p>Cabecera</p>
+                <p>&#60;header>&#60;/header></p>
+            </div>
+            <div class="esnav">
+                <p>Barra de navegación</p>
+                <p>&#60;nav>&#60;/nav></p>
+            </div>
+
+            <div class="esmain">
+                <p>&#60;main></p>
+                <div>
+                    <div class="essection">
+                        <p>Información Principal</p>
+
+                        <section>
+                            <p>&#60;section></p>
+                            <div>
+                                <article>
+                                    <p>&#60;article>articulo &#60;/article></p>
+                                </article>
+                                <article>
+                                    <p>&#60;article>articulo &#60;/article></p>
+                                </article>
+                            </div>
+                            <p>&#60;/section></p>
+                        </section>
+
+                    </div>
+                    <div class="esaside">  
+                        <p>Barra Lateral</p>
+                        <p>&#60;aside>&#60;/aside></p>
+                    </div>
+                </div>
+                <p>&#60;/main></p>
+            </div>
+            <div class="esfooter">
+                <div>Barra Institucional</div>
+                <footer>&#60;footer>&#60;/footer></footer>    
+            </div>
+        </div>
+        
+    <h2>Etiquetas y atributos</h2>
+    <table>
+
+        <caption>Atributos globales</caption>
+
+        <thead>
+            <th>Atributo</th>
+            <th>descripcion</th> 
+            <th>Ejemplo</th>     
+        </thead>
+        <tbody>
+            <td style="background-color: azure;" colspan="3" >atributos globales</td>
+            <tr>
+                <td>&#60;class></td>
+                <td>Define la clase que identifica la etiqueta</td>
+                <td>&#60;div class="etiqueta"></td>
+            </tr>
+            <tr>
+                <td>&#60;id></td>
+                <td>Define un identificador unico para esta etiqueta</td>
+                <td>&#60;div id="IDetiqueta"></td>
+            </tr>   
+        </tbody>
+    </table>
+<br>
+    <table>
+        <caption>Etiquetas de HTML</caption>
+        <thead>
+            <th>Etiquetas</th>
+            <th>Descripcion</th> 
+            <th>Codigo</th>   
+            <th>Ejemplo</th>
+        </thead>
+        <tbody>
+            <td style="background-color: azure;" colspan="4"> etiquetas texto</td>
+            <tr>
+                <td>&#60;p></td>
+                <td>Representa un parrafo</td>
+                <td> &#60;p> Lorem ipsum dolor sit amet consectetur adipisicing elit.&#60;/p></td> 
+                <td><p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></td>
+            </tr>
+            <tr>
+                <td>&#60;pre></td>
+                <td>Representa un texto con formato predefinido respetando los espacios originales en el codigo</td>
+                <td><pre>
+&#60;pre>loreLorem ipsum 
+dolor sit amet consectetur
+adipisicing elit.&#60;/pre>
+</pre></td>
+                <td><pre>
+loreLorem ipsum 
+dolor sit amet consectetur
+adipisicing elit.</pre></td>
+    
+            </tr>   
+            <tr>
+                <td>&#60;span></td>
+                <td>Esta se usa para luego asignar un estilo personalisado </td>
+                <td>&#60;span>texto&#60;/span></td>
+                <td>texto</td>
+            </tr>
+            <tr>
+                <td>&#60;br></td>
+                <td>Este elemento se usa para insertar saltos de linea</td>
+                <td> &#60;p>lorem ipsum &#60;br> dolor dit amet consecteur adipsicicing&#60;/p></td>
+                <td> <p>lorem ipsum <br> dolor dit amet consecteur adipsicicing</p></td>
+                
+            </tr>
+            <tr>
+                <td>&#60;wbr></td>
+                <td>Sugiere la posibilidad de un salto de linea en caso de que no haya suficiente espacio</td>
+                <td>lorem ipsum &#60;wbr> dolor dit amet consecteur adipsicicing</td>
+                <td>lorem ipsum <wbr> dolor dit amet consecteur adipsicicing</td>
+            </tr>
+            <tr>
+                <td>&#60;em></td>
+                <td>Este elemento se usa para indicar énfasis se ve en cursiva </td>
+                <td>lorem &#60;em>ipsum &#60;/em> dolor dir amet consecteur adipsicicing</td>
+                <td>lorem <em>ipsum </em> dolor dir amet consecteur adipsicicing</td>
+            </tr>
+            <tr>
+                <td>&#60;strong></td>
+                <td>indica inportancia y el texto se muestra en negrita</td>
+                <td>lorem &#60;strong>ipsum &#60;/strong> dolor dir amet consecteur adipsicicing</td>
+                <td>lorem <strong>ipsum </strong> dolor dir amet consecteur adipsicicing</td>
+            </tr>
+            <tr>
+                <td>&#60;i></td>
+                <td>Respresenta una voz alternativa o un estado de humor , se ve en letra cursiva</td>
+                <td>lorem &#60;i>ipsum &#60;/i> dolor dir amet consecteur adipsicicing</td>
+                <td>lorem <i>ipsum </i> dolor dir amet consecteur adipsicicing</td>
+            </tr>
+            <tr>
+                <td>&#60;u></td>
+                <td>Representa un texto no articulado, se ve subrayado</td>
+                <td>&#60;u> lorem ipsum  dolor dir amet consecteur adipsicicing &#60;/u></td>
+                <td><u>lorem ipsum  dolor dir amet consecteur adipsicicing </u></td>
+
+            </tr>
+            <tr>
+                <td>&#60;b></td>
+                <td>Este elemento se usa para indicar importancia. Debería ser 
+                    implementado solo cuando ningún otro elemento es apropiado para 
+                    la situación. El texto se muestra por defecto en negrita.</td>
+                <td>lorem &#60;b>ipsum &#60;/b> dolor dir amet consecteur adipsicicing</td>
+                <td>lorem <b>ipsum </b> dolor dir amet consecteur adipsicicing</td>
+            </tr>
+        </tbody>
+
+
+
+    </table>
+
+
+    </header>
+</body>
+</html>
